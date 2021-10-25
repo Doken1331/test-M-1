@@ -10,6 +10,34 @@
 </head>
 
 <body>
+    <div class="popup">
+        <div class="popup__main">
+            <div class="popup__img" id="img">
+                <img src="./images/woman-2.jpg" alt="woman-2">
+            </div>
+            <div class="popup__order">
+                <h2 class="popup__order-title" id="title">
+                    Портупея
+                </h2>
+                <div class="popup__order-price" id="price">
+                    123123 р.
+                </div>
+                <form action="select" class="popup__order-form">
+                    <select class="popup__order-form-select">
+                        <option class="popup__order-form-option" selected value="XS">XS</option>
+                        <option class="popup__order-form-option" value="S">S</option>
+                        <option class="popup__order-form-option" value="M">M</option>
+                        <option class="popup__order-form-option" value="L">L</option>
+                        <option class="popup__order-form-option" value="L">XL</option>
+                        <option class="popup__order-form-option" value="L">XXL</option>
+                    </select>
+                    <input class="popup__order-input" type="text" placeholder="Введите ваше имя">
+                    <input class="popup__order-input" type="text" placeholder="Введите ваш телефон">
+                    <button class="catalog__card-button">ОФОРМИТЬ ЗАКАЗ</button>
+                </form>
+            </div>
+        </div>
+    </div>
     <!-- header start -->
     <div class="wrapper">
         <header class="header">
@@ -171,7 +199,7 @@
                             </div>
                             <img src="./images/woman-1.jpg" alt="woman-1">
                         </div>
-                        <h2 class="catalog__card-title">
+                        <h2 class="catalog__card-title" id="cardTitle">
                             Портупея "Пеппи"
                         </h2>
                         <div class="catalog__card-sizes">
@@ -212,7 +240,7 @@
                             <img src="./images/woman-2.jpg" alt="woman-2">
                         </div>
                         <h2 class="catalog__card-title">
-                            Портупея "Пеппи"
+                            Портупея "Пуппи"
                         </h2>
                         <div class="catalog__card-sizes">
                             <ul class="catalog__card-sizes-list">
@@ -249,7 +277,7 @@
                             <img src="./images/woman-3.jpg" alt="woman-3">
                         </div>
                         <h2 class="catalog__card-title">
-                            Портупея "Пеппи"
+                            Портупея "Поппи"
                         </h2>
                         <div class="catalog__card-sizes">
                             <ul class="catalog__card-sizes-list">
@@ -450,7 +478,7 @@
     </main>
 
     <!-- main end -->
-
+    <script src="./js/script.js"></script>
 </body>
 
 </html>
