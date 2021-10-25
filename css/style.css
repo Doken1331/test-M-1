@@ -73,6 +73,10 @@ ul {
     flex-direction: column;
 }
 
+.popup__order-price {
+    display: flex;
+}
+
 .popup__order-form-select {
     -webkit-appearance: none;
     -moz-appearance: none;
