@@ -31,3 +31,19 @@ btnTwo.onclick = function() {
     activeCatalog[1].classList.add('catalog__buttons-btn_active');
     activeCatalog[0].classList.remove('catalog__buttons-btn_active');
 }
+
+
+/* anchor */
+
+const anchors = document.querySelectorAll('a[href*="#"]');
+
+for (let anchor of anchors) {
+    anchor.addEventListener("click", (event) => {
+        event.preventDefault();
+        const blockID = anchor.getAttribute('href');
+        document.querySelector('' + blockID).scrollIntoView({
+            behavior: "smooth",
+            block: "start"
+        })
+    })
+}
