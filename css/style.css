@@ -114,7 +114,7 @@ ul {
 .catalog__card-pic_close {
     display: none;
     position: absolute;
-    top: 25px;
+    top: 5px;
     right: 5px;
     width: 35px;
     height: 35px;
@@ -125,7 +125,7 @@ ul {
     height: 2px;
     background-color: #000;
     position: absolute;
-    top: 0;
+    top: 17px;
     right: 0;
     transform: rotate(45deg);
 }
@@ -135,7 +135,7 @@ ul {
     height: 2px;
     background-color: #000;
     position: absolute;
-    top: 0;
+    top: 17px;
     right: 0;
     transform: rotate(-45deg);
 }
